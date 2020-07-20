@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: dev.dockerfile
+    image: solid-drive-login
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - 3001:3000
+    tty: true
