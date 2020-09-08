@@ -1,0 +1,8 @@
+.Button {
+  padding: 5px 10px;
+  transition: background 500ms linear;
+}
+
+.Button:hover {
+  background: var(--default-highlight);
+}
