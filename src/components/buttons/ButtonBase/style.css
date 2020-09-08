@@ -1,0 +1,6 @@
+.ButtonBase {
+  border: none;
+  cursor: pointer;
+  background: none;
+  font-size: var(--s-font);
+}
