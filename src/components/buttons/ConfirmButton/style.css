@@ -1,0 +1,7 @@
+.ConfirmButton {
+  background: var(--green-main);
+}
+
+.ConfirmButton:hover {
+  background: var(--green-dark);
+}
