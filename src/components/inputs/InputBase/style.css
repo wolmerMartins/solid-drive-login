@@ -1,0 +1,6 @@
+.InputBase {
+  width: 100%;
+  border: none;
+  padding: 5px 7px;
+  font-size: var(--xs-font);
+}
