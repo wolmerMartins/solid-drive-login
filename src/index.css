@@ -5,6 +5,16 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  background: var(--default-main);
+}
+
+:root {
+  --xl-font: 1rem;
+  --l-font: 0.889rem;
+  --m-font: 0.790rem;
+  --s-font: 0.702rem;
+  --xs-font: 0.624rem;
+  --xxs-font: 0.555rem;
 }
 
 html {

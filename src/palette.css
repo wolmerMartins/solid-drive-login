@@ -1,0 +1,8 @@
+:root {
+  --default-main: #FBFBFB;
+  --default-highlight: rgba(0, 0, 0, .4);
+  --green-main: #A7D49B;
+  --green-dark: #719e64;
+  --red-dark: #690500;
+  --red-main: #D1462F;
+}
