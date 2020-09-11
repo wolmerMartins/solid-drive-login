@@ -1,0 +1,8 @@
+.FieldBase {
+  border: none;
+  border-bottom: 1px solid #CCC;
+}
+
+.FieldBase-label {
+  font-size: var(--s-font);
+}
