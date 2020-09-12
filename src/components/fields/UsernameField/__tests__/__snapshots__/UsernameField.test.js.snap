@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UsernameField /> Render the component without crashing 1`] = `
+<DocumentFragment>
+  <fieldset
+    class="FieldBase"
+  >
+    <label
+      class="FieldBase-label"
+      for="username-field"
+    >
+      Usuário
+    </label>
+    <input
+      class="InputBase "
+      id="username-field"
+      placeholder="Nome de usuário ou e-mail"
+      type="text"
+      value=""
+    />
+  </fieldset>
+</DocumentFragment>
+`;
