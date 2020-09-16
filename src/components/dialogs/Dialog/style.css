@@ -1,0 +1,21 @@
+.Dialog-overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--default-highlight);
+}
+
+.Dialog {
+  top: 50%;
+  left: 50%;
+  border: none;
+  height: auto;
+  padding: 1rem;
+  overflow: hidden;
+  max-width: 17rem;
+  position: absolute;
+  width: calc(100% - 2rem);
+  transform: translate(-50%, -50%);
+}
