@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InlineErrorMessage /> Render the component with 'error inline component' message 1`] = `
+<div
+  class="InlineErrorMessage"
+>
+  error inline component
+</div>
+`;
+
+exports[`<InlineErrorMessage /> Render the component with an empty message 1`] = `
+<DocumentFragment>
+  <div
+    class="InlineErrorMessage"
+  />
+</DocumentFragment>
+`;

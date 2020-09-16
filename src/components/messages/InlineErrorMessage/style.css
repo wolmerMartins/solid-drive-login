@@ -1,0 +1,5 @@
+.InlineErrorMessage {
+  margin-top: 1rem;
+  color: var(--red-main);
+  font-size: var(--xxs-font);
+}
