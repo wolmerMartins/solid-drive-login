@@ -1,0 +1,23 @@
+@keyframes show-content {
+  from {
+    margin-left: 18rem;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+.DialogContent {
+  overflow: hidden;
+}
+
+.DialogContent-show {
+  margin-left: 18rem;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-name: show-content;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
