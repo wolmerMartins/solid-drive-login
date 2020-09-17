@@ -1,0 +1,13 @@
+.Dialog-logo {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.Dialog-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.Dialog-title {
+  font-size: var(--l-font);
+}
