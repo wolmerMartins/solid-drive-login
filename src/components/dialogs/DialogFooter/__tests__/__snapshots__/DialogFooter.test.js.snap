@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DialogFooter /> Render the component with ref 1`] = `
+<DocumentFragment>
+  <footer
+    class="DialogFooter"
+  >
+    <span>
+      Dialog Footer
+    </span>
+  </footer>
+</DocumentFragment>
+`;
