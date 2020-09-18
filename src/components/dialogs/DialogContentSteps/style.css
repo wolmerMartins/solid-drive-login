@@ -1,0 +1,88 @@
+@keyframes show-content {
+  from {
+    margin-left: 18rem;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes hide-content {
+  from {
+    margin-left: 0;
+    opacity: 1;
+  } to {
+    margin-left: -25rem;
+    opacity: 0;
+  }
+}
+
+.DialogContentSteps {
+  display: grid;
+  margin-top: 20px;
+  overflow: hidden;
+  grid-template-areas:
+    'h . .'
+    'c c c'
+    '. . f';
+}
+
+.DialogContentSteps-show {
+  margin-left: 18rem;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-name: show-content;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+.DialogContentSteps-show.reverse {
+  animation-delay: unset;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+}
+
+.DialogContentSteps-hide {
+  margin-left: 0;
+  animation-duration: .7s;
+  animation-direction: normal;
+  animation-name: hide-content;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+.DialogContentSteps-hide.reverse {
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+}
+
+.DialogContentSteps-header-area {
+  grid-area: h;
+}
+
+.DialogContentSteps-content-area {
+  grid-area: c;
+  margin: 10px 0;
+}
+
+.DialogContentSteps-footer-area {
+  grid-area: f;
+  justify-self: end;
+}
+
+.DialogContentSteps-back-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.DialogContentSteps-back-button {
+  font-size: var(--xs-font);
+}
+
+.DialogContentSteps-back-text {
+  margin-left: .5rem;
+  font-size: var(--xxs-font);
+}
