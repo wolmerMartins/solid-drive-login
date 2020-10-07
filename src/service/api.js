@@ -6,4 +6,5 @@ const api = axios.create({
 
 export default {
   login: data => api.post('/login', data),
+  checkUser: username => api.get(`/${username}/exists`)
 }
