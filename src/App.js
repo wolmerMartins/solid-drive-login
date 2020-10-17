@@ -1,13 +1,12 @@
 import React from 'react'
 
+import LoginDialog from './components/dialogs/LoginDialog'
+
 import './App.css'
+import './palette.css'
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Login - Solid Drive</h1>
-    </div>
-  )
+  return <LoginDialog />
 }
 
 export default App
