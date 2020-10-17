@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginDialog /> Render the component without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="Dialog-overlay"
+  />
+  <dialog
+    class="Dialog"
+    open=""
+  >
+    <header>
+      <div
+        class="Dialog-title-container"
+      >
+        <img
+          alt="Dialog title logo"
+          class="Dialog-logo"
+          src="logo.png"
+        />
+        <h1
+          class="Dialog-title"
+        >
+          Solid Drive
+        </h1>
+      </div>
+    </header>
+    <main
+      class="DialogContentSteps DialogContentSteps-show"
+    >
+      <div
+        class="DialogContentSteps-header-area"
+      />
+      <div
+        class="DialogContentSteps-content-area"
+      >
+        <fieldset
+          class="FieldBase"
+        >
+          <label
+            class="FieldBase-label"
+            for="username-field"
+          >
+            Usuário
+          </label>
+          <input
+            class="InputBase "
+            id="username-field"
+            placeholder="Nome de usuário ou e-mail"
+            type="text"
+            value=""
+          />
+        </fieldset>
+      </div>
+      <div
+        class="DialogContentSteps-footer-area"
+      >
+        <button
+          class="ButtonBase Button "
+        >
+          Próximo
+        </button>
+      </div>
+    </main>
+    <footer
+      class="DialogFooter"
+    >
+      <span>
+        Não tem uma conta? 
+        <a
+          class="LoginDialog-link"
+          href="/"
+        >
+          Crie uma!
+        </a>
+      </span>
+    </footer>
+  </dialog>
+</DocumentFragment>
+`;
